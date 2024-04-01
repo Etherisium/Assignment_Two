@@ -66,11 +66,12 @@ console.log(searchcountryname);
         
            var newDiv = document.createElement("div");
     
-           newDiv.innerHTML = ` <h2>Country Weather</h2> <br><br><br>
+           newDiv.innerHTML = ` <h2>Country Weather</h2> <br><br>
            <h3>Weather</h3> <b>${weatherdata.weather[0].main}</b> <br>
                               <h3>Description</h3> <b>${weatherdata.weather[0].description}</b> <br><br>
-
-                              <h3>Temperature</h3> <b>${weatherdata.main.temp}</b> <br><br>`; 
+                              <h3>Humidity</h3> <b>${weatherdata.main.humidity}</b> <br><br>
+                              <h3>Wind Speed</h3> <b>${weatherdata.wind.speed}</b> <br><br>
+                              <h3>Temperature</h3> <b>${weatherdata.main.temp}</b> <br><br><br>`; 
     
            newDiv.classList.add("innerStyle");
     
