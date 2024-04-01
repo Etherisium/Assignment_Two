@@ -96,7 +96,9 @@ nav ul li a:hover {
 
 nav ul li a.active {
     background-color:rgb(135,206,250)
-    ;}
+    ;
+border-radius: 10px;
+}
 
 h3{	color: rgb(72,61,139)}
 
