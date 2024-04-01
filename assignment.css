@@ -1,0 +1,112 @@
+#container
+ {display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding: auto;
+    
+}
+
+.innerStyle img {
+    width: 350px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.innerStyle {
+    margin: 10px;
+    padding: 10px;
+    background-color:	rgb(230,230,250);
+}
+
+
+
+body { margin: 100px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgb(240,248,255);
+   }
+
+#container2
+ {display:flex;
+    margin: auto;
+    padding: auto;}
+   
+ h1{color:	rgb(72,61,139);
+    font-family:"monospace";
+    text-align: center;
+   margin: auto;
+padding: auto;}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#container3 {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(65,105,225);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+nav ul li a.active {
+    background-color:rgb(135,206,250)
+    ;}
+
+h3{	color: rgb(72,61,139)}
+
+.textbox{
+    text-align: center;
+    margin:100px auto;
+    padding:100px auto;}
+
+h4 {color:	rgb(72,61,139);
+    font-family:"monospace";
+    text-align: center;
+   margin: auto;
+padding: auto;}
+
+.logo {
+    height: 50px; 
+    width: auto; 
+    margin-right: 10px; 
+}
+
+
+
+
