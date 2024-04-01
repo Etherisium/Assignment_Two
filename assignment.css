@@ -1,8 +1,10 @@
 #container
  {display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: flex;
     margin: auto;
     padding: auto;
+    width: 50%;
+    text-align: center;
     
 }
 
@@ -31,7 +33,9 @@ body { margin: 100px;
 #container2
  {display:flex;
     margin: auto;
-    padding: auto;}
+    padding: auto;
+    width: 15%;
+    text-align: center;}
    
  h1{color:	rgb(72,61,139);
     font-family:"monospace";
@@ -110,3 +114,18 @@ padding: auto;}
 
 
 
+.box{ text-align: center;
+    margin:50px auto;
+    padding:200px auto;
+width:1000px;}
+
+.flag{margin: 50px;
+        width: 1600px;
+        height: 250px;
+        display:block;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;}
+
+.gif2{width:250;
+height:auto ;}

@@ -29,7 +29,9 @@ function show (data) {
        newDiv.innerHTML = `<h3>Country Name: <b>${data[i].name.common}</b> </h3><br>
                            <img src= "${data[i].flags.png}"> <br> <br>
                          <h3> Capital Name:</h3> <b>${data[i].capital}</b> <br><br> 
-                         <h3> Population: </h3> <b> ${data[i].population} </b><br><br>
+                         <h3> Population: </h3> <b> ${data[i].population} </b><br><br> 
+                         <h3> Region: </h3> <b> ${data[i].region}<br><br> 
+                         
                           <button onclick="display()"> More Details </button> `; 
 
        newDiv.classList.add("innerStyle");
@@ -57,22 +59,24 @@ console.log(searchcountryname);
 
  function display2 (weatherdata) {
     
-        var oldContent = document.getElementById("container2");
+        var oldContent = document.getElementById("container");
     
     
         oldContent.textContent = " "; 
-       
+        
            var newDiv = document.createElement("div");
     
-           newDiv.innerHTML = `<h3>Weather:</h3> <b>${weatherdata.weather[0].main}</b> <br>
-                              <h3>Description:</h3> <b>${weatherdata.weather[0].description}</b> <br><br>`; 
+           newDiv.innerHTML = ` <h2>Country Weather</h2> <br><br><br>
+           <h3>Weather</h3> <b>${weatherdata.weather[0].main}</b> <br>
+                              <h3>Description</h3> <b>${weatherdata.weather[0].description}</b> <br><br>
+
+                              <h3>Temperature</h3> <b>${weatherdata.main.temp}</b> <br><br>`; 
     
            newDiv.classList.add("innerStyle");
     
-           oldContent.appendChild(newDiv); 
+oldContent.appendChild(newDiv); 
            
         
-       
         
        
        
