@@ -5,6 +5,9 @@
     padding: auto;
     width: 50%;
     text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(70,130,180);
+    border-radius: 10px;
+    background-color: white;
     
 }
 
@@ -17,9 +20,10 @@
 
 
 .innerStyle {
-    margin: 10px;
-    padding: 10px;
-    background-color:	rgb(230,230,250);
+    margin: 20px;
+    padding: 30px;
+    background-color:rgb(230,230,250)
+    ;
 }
 
 
@@ -52,7 +56,7 @@ body {
 
 #container3 {
     width: 80%;
-    margin: auto;
+    margin: 100px;
 }
 
 header {
@@ -68,6 +72,8 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex; 
+    justify-content: center;
 }
 
 nav ul li {
@@ -117,10 +123,15 @@ padding: auto;}
 .box{ text-align: center;
     margin:50px auto;
     padding:200px auto;
-width:1000px;}
+    background-color:rgb(230,230,250);
+width:900px;
+height: 250px;
+border-radius: 10px;
+border: 5px solid #fff;
+}
 
 .flag{margin: 50px;
-        width: 1600px;
+        width: 1000px;
         height: 250px;
         display:block;
         border-radius: 10px;
@@ -129,7 +140,8 @@ width:1000px;}
 
 .gif2{width:250;
 height:auto ;}
-
+.gif{width:200;
+    height:auto ;}
 .button {
     background-color: rgb(135,206,250); 
     border:darkblue;
@@ -151,3 +163,5 @@ height:auto ;}
 .button:active {
     background-color:darkblue; 
 }
+
+p{color:darkblue;}
