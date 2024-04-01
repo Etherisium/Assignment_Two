@@ -32,7 +32,7 @@ function show (data) {
                          <h3> Population: </h3> <b> ${data[i].population} </b><br><br> 
                          <h3> Region: </h3> <b> ${data[i].region}<br><br> 
                          
-                          <button onclick="display()"> More Details </button> `; 
+                          <button class="button"onclick="display()"> More Details </button> `; 
 
        newDiv.classList.add("innerStyle");
 
